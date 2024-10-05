@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+.time {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2%;
+    font-size: 3.5vmax;
+    color: #ffffff;
+    width: 40%;
+    justify-content: center;
+}
+
+.time h1 {
+    margin: 0;
+}
+
+.date {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2%;
+    color: #ffffff;
+    width: 40%;
+    justify-content: center;
+
+}
+
+.main {
+    border: 2px solid #595959;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 15% auto;
+    width: 40vmax;
+    background-color: #212121;
+}
+
+#am-pm {
+    position: relative;
+    margin-top: 6vmax;
+    font-size: 1rem;
+}
